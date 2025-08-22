@@ -48,18 +48,8 @@ footer.tutor-container {
             &:first-child {
                 padding-left: 0;
             }
-            &:last-child {
-                padding-left: 20px;
-                &:after {
-                    position: absolute;
-                    left: 5px;
-                    top: 50%;
-                    content: "";
-                    width: 1px;
-                    height: 29px;
-                    margin: -14px 0 0;
-                    background: $text-color-primary;;
-                }
+            &:not(:first-child) {
+                padding-left: 10px;
             }
         }
     }
