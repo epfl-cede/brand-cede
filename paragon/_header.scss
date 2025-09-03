@@ -160,7 +160,7 @@
                 display: block;
                 border-bottom: 2px solid transparent;
                 background: none;
-                &:hover {
+                &.active, &:hover {
                     color: $text-color;
                     text-decoration: none;
                     border-bottom: 2px solid $primary;
